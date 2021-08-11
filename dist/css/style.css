@@ -1,6 +1,180 @@
-/*!********************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/css/style.css ***!
-  \********************************************************************************************************************************************************************/
+/*!*********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/css/style.scss ***!
+  \*********************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap);
+/*!*************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/css/style.scss (1) ***!
+  \*************************************************************************************************************************************************************************/
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #efefef;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* small */
+/* medium */
+/* large */
+/* extra large */
+/* double extra large */
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+.row {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .lg-1 {
+    width: calc((1 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg-2 {
+    width: calc((2 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg-3 {
+    width: calc((3 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg-4 {
+    width: calc((4 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg-5 {
+    width: calc((5 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg-6 {
+    width: calc((6 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg-7 {
+    width: calc((7 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg-8 {
+    width: calc((8 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg-9 {
+    width: calc((9 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg-10 {
+    width: calc((10 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg-11 {
+    width: calc((11 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg-12 {
+    width: calc((12 / 12) * 100%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+.sub-heading {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #9a9a9a;
+  height: 100%;
+}
+.card .card-image-container {
+  margin-bottom: 0.5rem;
+}
+.card .card-image {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  min-height: 300px;
+  max-height: 300px;
+}
+.card .card-title {
+  font-weight: 700;
+}
+.card .card-link:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
 }

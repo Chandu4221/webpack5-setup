@@ -1,0 +1,62 @@
+// 1. CONTAINER
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@include sm {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@include md {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@include lg {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@include xl {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@include xxl {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+// 2. ROW
+.row {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+// 3.COLUMNS
+$no_of_grids: 12;
+@include lg {
+  @for $i from 1 through $no_of_grids {
+    .lg-#{$i} {
+      width: calc((#{$i} / #{$no_of_grids}) * 100%);
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+  }
+}

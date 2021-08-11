@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { ProvidePlugin } = require("webpack");
+const Data = require(path.resolve(__dirname, "src/data/data.json"));
 
 module.exports = {
   mode: "development",
@@ -28,12 +29,7 @@ module.exports = {
       // ejs
       {
         test: /\.ejs$/,
-        loader: "ejs-loader",
-        options: {
-          variable: "data",
-          interpolate: "\\{\\{(.+?)\\}\\}",
-          evaluate: "\\[\\[(.+?)\\]\\]",
-        },
+        loader: "ejs-compiled-loader",
       },
       // css
       {
@@ -79,7 +75,7 @@ module.exports = {
       template: "!!ejs-compiled-loader!./src/index.ejs",
       filename: "index.html",
       title: "Webpack 5 Setup",
-      data: "Item",
+      data: Data,
     }),
     new ProvidePlugin({
       _: "underscore",

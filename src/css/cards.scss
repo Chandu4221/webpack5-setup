@@ -1,0 +1,24 @@
+.card {
+  padding: 1rem;
+  border: 1px solid #9a9a9a;
+  height: 100%;
+  & &-image-container {
+    margin-bottom: 0.5rem;
+  }
+  & &-image {
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    min-height: 300px;
+    max-height: 300px;
+  }
+  & &-title {
+    font-weight: 700;
+  }
+  & &-link {
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+}

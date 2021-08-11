@@ -1,0 +1,44 @@
+{
+	"title": "Please recreate this grouping of cards using the provided data.",
+	"body": "<p>Development notes:</p><ul><li>Please DO NOT pay attention to specific dimensions.  We are more concerned with general layout.</li><li>Please DO NOT use a framework for layout. Examples are: bootstrap, foundation, etc.</li><li>Feel free to use any developer tools to build including but not limited to: templating languages, code compilers, codepen, etc.</li><li>HTML can be static or rendered by javascript.</li><li>Cards should be in one column at mobile views.</li><li>Please package test page as a zip file for review.</li></ul>",
+	"deck_heading": "Deck title", 
+	"cards": [
+		{
+			"image": "https://content.schwab.com/c2/UIE_codetest/img/cat1.jpg",
+			"title": "Cat with blue eyes",
+			"body": "Blue eyes ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu neque, mollis sed velit et, egestas laoreet mauris. Nunc venenatis tincidunt.",
+			"links": [
+				{
+					"text": "Link One",
+					"href": "#"
+				}
+			]
+		},
+		{
+			"image": "https://content.schwab.com/c2/UIE_codetest/img/cat2.jpg",
+			"title": "Cat in deep thought",
+			"body": "Deep thought ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu neque, mollis sed velit et, egestas laoreet mauris. Nunc venenatis tincidunt.",
+			"links": [
+				{
+					"text": "Link One",
+					"href": "#"
+				},
+				{
+					"text": "Link Two",
+					"href": "#"
+				}
+			]
+		},
+		{
+			"image": "https://content.schwab.com/c2/UIE_codetest/img/cat3.jpg",
+			"title": "Calico cat",
+			"body": "Calico ipsum dolor sit amet, consectetur adipiscing elit. Nam arcu neque, mollis sed velit et, egestas laoreet mauris. Nunc venenatis tincidunt sodales.",
+			"links": [
+				{
+					"text": "Link One",
+					"href": "#"
+				}
+			]
+		}
+	]
+}
