@@ -51,12 +51,48 @@
 
 // 3.COLUMNS
 $no_of_grids: 12;
+
+// sm grid
+@include sm {
+  @for $i from 1 through $no_of_grids {
+    .sm-#{$i} {
+      width: calc((#{$i} / #{$no_of_grids}) * 100%);
+    }
+  }
+}
+
+// md grid
+@include md {
+  @for $i from 1 through $no_of_grids {
+    .md-#{$i} {
+      width: calc((#{$i} / #{$no_of_grids}) * 100%);
+    }
+  }
+}
+
+// lg grid
 @include lg {
   @for $i from 1 through $no_of_grids {
     .lg-#{$i} {
       width: calc((#{$i} / #{$no_of_grids}) * 100%);
-      padding-left: 0.5rem;
-      padding-right: 0.5rem;
+    }
+  }
+}
+
+// xl grid
+@include xl {
+  @for $i from 1 through $no_of_grids {
+    .xl-#{$i} {
+      width: calc((#{$i} / #{$no_of_grids}) * 100%);
+    }
+  }
+}
+
+// xxl grid
+@include xxl {
+  @for $i from 1 through $no_of_grids {
+    .xxl-#{$i} {
+      width: calc((#{$i} / #{$no_of_grids}) * 100%);
     }
   }
 }

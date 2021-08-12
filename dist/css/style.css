@@ -73,77 +73,249 @@ h6 {
   padding-right: 0.5rem;
 }
 
+@media (min-width: 576px) {
+  .sm-1 {
+    width: calc((1 / 12) * 100%);
+  }
+
+  .sm-2 {
+    width: calc((2 / 12) * 100%);
+  }
+
+  .sm-3 {
+    width: calc((3 / 12) * 100%);
+  }
+
+  .sm-4 {
+    width: calc((4 / 12) * 100%);
+  }
+
+  .sm-5 {
+    width: calc((5 / 12) * 100%);
+  }
+
+  .sm-6 {
+    width: calc((6 / 12) * 100%);
+  }
+
+  .sm-7 {
+    width: calc((7 / 12) * 100%);
+  }
+
+  .sm-8 {
+    width: calc((8 / 12) * 100%);
+  }
+
+  .sm-9 {
+    width: calc((9 / 12) * 100%);
+  }
+
+  .sm-10 {
+    width: calc((10 / 12) * 100%);
+  }
+
+  .sm-11 {
+    width: calc((11 / 12) * 100%);
+  }
+
+  .sm-12 {
+    width: calc((12 / 12) * 100%);
+  }
+}
+@media (min-width: 768px) {
+  .md-1 {
+    width: calc((1 / 12) * 100%);
+  }
+
+  .md-2 {
+    width: calc((2 / 12) * 100%);
+  }
+
+  .md-3 {
+    width: calc((3 / 12) * 100%);
+  }
+
+  .md-4 {
+    width: calc((4 / 12) * 100%);
+  }
+
+  .md-5 {
+    width: calc((5 / 12) * 100%);
+  }
+
+  .md-6 {
+    width: calc((6 / 12) * 100%);
+  }
+
+  .md-7 {
+    width: calc((7 / 12) * 100%);
+  }
+
+  .md-8 {
+    width: calc((8 / 12) * 100%);
+  }
+
+  .md-9 {
+    width: calc((9 / 12) * 100%);
+  }
+
+  .md-10 {
+    width: calc((10 / 12) * 100%);
+  }
+
+  .md-11 {
+    width: calc((11 / 12) * 100%);
+  }
+
+  .md-12 {
+    width: calc((12 / 12) * 100%);
+  }
+}
 @media (min-width: 992px) {
   .lg-1 {
     width: calc((1 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg-2 {
     width: calc((2 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg-3 {
     width: calc((3 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg-4 {
     width: calc((4 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg-5 {
     width: calc((5 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg-6 {
     width: calc((6 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg-7 {
     width: calc((7 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg-8 {
     width: calc((8 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg-9 {
     width: calc((9 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg-10 {
     width: calc((10 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg-11 {
     width: calc((11 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
   .lg-12 {
     width: calc((12 / 12) * 100%);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .xl-1 {
+    width: calc((1 / 12) * 100%);
+  }
+
+  .xl-2 {
+    width: calc((2 / 12) * 100%);
+  }
+
+  .xl-3 {
+    width: calc((3 / 12) * 100%);
+  }
+
+  .xl-4 {
+    width: calc((4 / 12) * 100%);
+  }
+
+  .xl-5 {
+    width: calc((5 / 12) * 100%);
+  }
+
+  .xl-6 {
+    width: calc((6 / 12) * 100%);
+  }
+
+  .xl-7 {
+    width: calc((7 / 12) * 100%);
+  }
+
+  .xl-8 {
+    width: calc((8 / 12) * 100%);
+  }
+
+  .xl-9 {
+    width: calc((9 / 12) * 100%);
+  }
+
+  .xl-10 {
+    width: calc((10 / 12) * 100%);
+  }
+
+  .xl-11 {
+    width: calc((11 / 12) * 100%);
+  }
+
+  .xl-12 {
+    width: calc((12 / 12) * 100%);
+  }
+}
+@media (min-width: 1400px) {
+  .xxl-1 {
+    width: calc((1 / 12) * 100%);
+  }
+
+  .xxl-2 {
+    width: calc((2 / 12) * 100%);
+  }
+
+  .xxl-3 {
+    width: calc((3 / 12) * 100%);
+  }
+
+  .xxl-4 {
+    width: calc((4 / 12) * 100%);
+  }
+
+  .xxl-5 {
+    width: calc((5 / 12) * 100%);
+  }
+
+  .xxl-6 {
+    width: calc((6 / 12) * 100%);
+  }
+
+  .xxl-7 {
+    width: calc((7 / 12) * 100%);
+  }
+
+  .xxl-8 {
+    width: calc((8 / 12) * 100%);
+  }
+
+  .xxl-9 {
+    width: calc((9 / 12) * 100%);
+  }
+
+  .xxl-10 {
+    width: calc((10 / 12) * 100%);
+  }
+
+  .xxl-11 {
+    width: calc((11 / 12) * 100%);
+  }
+
+  .xxl-12 {
+    width: calc((12 / 12) * 100%);
   }
 }
 .sub-heading {
